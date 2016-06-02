@@ -1,0 +1,9 @@
+[Unit]
+Description=Servant Service
+
+[Service]
+ExecStart=/root/servant/startservant.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
