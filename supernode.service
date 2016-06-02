@@ -1,8 +1,8 @@
 [Unit]
-Description=NIS Service
+Description=Supernode Service
 
 [Service]
-ExecStart=/root/package/nix.runNis.sh
+ExecStart=/root/supernodeStart.sh
 Restart=always
 
 [Install]
