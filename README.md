@@ -36,3 +36,9 @@ reboot
 ```
 journalctl -u supernode
 ```
+```
+tail -f nem/nis/logs/nis-0.log
+```
+```
+tail -f nem/node-rewards/servant/logs/servant-0.log
+```
