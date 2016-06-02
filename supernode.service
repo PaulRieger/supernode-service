@@ -2,8 +2,9 @@
 Description=Supernode Service
 
 [Service]
+Type=oneshot
 ExecStart=/root/supernode-service-master/supernodeStart.sh
-Restart=always
+RemainAfterExit=true
 
 [Install]
 WantedBy=multi-user.target
