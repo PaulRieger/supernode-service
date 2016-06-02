@@ -28,3 +28,8 @@ systemctl reenable supernode.service
 ```
 reboot
 ```
+
+## Logs
+```
+journalctl -u supernode
+```
