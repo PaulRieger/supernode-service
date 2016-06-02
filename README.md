@@ -23,6 +23,8 @@ systemctl daemon-reload
 ```
 systemctl reenable supernode.service 
 ```
+
+## Run
 ```
 reboot
 ```
