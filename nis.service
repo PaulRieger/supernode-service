@@ -2,7 +2,7 @@
 Description=NIS Service
 
 [Service]
-ExecStart=root/package/nix.runNis.sh
+ExecStart=/root/package/nix.runNis.sh
 Restart=always
 
 [Install]
