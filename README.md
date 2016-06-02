@@ -7,6 +7,9 @@ wget https://github.com/PaulRieger/supernode-service/archive/master.zip
 unzip master.zip
 ```
 ```
+rm master.zip 
+```
+```
 chmod +x supernode-service-master/supernodeStart.sh
 ```
 ```
