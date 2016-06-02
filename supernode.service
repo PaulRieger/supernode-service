@@ -2,7 +2,7 @@
 Description=Supernode Service
 
 [Service]
-ExecStart=/root/supernodeStart.sh
+ExecStart=/root/supernode-service-0.2.0/supernodeStart.sh
 Restart=always
 
 [Install]
