@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd ~/package
-nohup ./nix.runNis.sh &
+nohup ./nisStart.sh &
 cd ~/servant
-nohup ./startservant.sh &
+nohup ./servantStart.sh &
 cd -
