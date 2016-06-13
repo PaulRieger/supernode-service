@@ -1,7 +1,7 @@
 #!/bin/bash
 
-cd ~/package
+cd ~/nis-ncc
 nohup ./nisStart.sh &
-cd ~/servant
+cd ~/supernode-servant
 nohup ./servantStart.sh &
 cd -
